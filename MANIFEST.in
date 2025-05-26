@@ -1,2 +1,2 @@
 include README.md
-recursive-include src/celery_health_check *
+recursive-include src/celery_hchecker *

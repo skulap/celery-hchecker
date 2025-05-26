@@ -6,7 +6,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8'
     long_description = f.read()
 
 setup(
-    name='celery-health-check',
+    name='celery-hchecker',
     version='0.0.1',
     packages=find_packages(where="src"),
     include_package_data=True,
