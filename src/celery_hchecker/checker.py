@@ -137,7 +137,7 @@ class CeleryHealthChecker:
         )
         return status
 
-    def _start_monitoring(self):
+    def start_monitoring(self):
         """Запуск фонового мониторинга"""
         if self._monitoring_thread and self._monitoring_thread.is_alive():
             self._logger.warning("Celery health check monitoring is already running")
