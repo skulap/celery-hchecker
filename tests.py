@@ -3,7 +3,7 @@ import threading
 import time
 import logging
 from celery import Celery
-from src.celery_health_check import CeleryHealthChecker
+from src.celery_hchecker import CeleryHealthChecker
 
 # Ensure logging during tests
 logging.basicConfig(level=logging.DEBUG)
