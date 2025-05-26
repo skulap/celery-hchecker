@@ -1,0 +1,14 @@
+# IDE
+.idea
+
+# VENV
+venv
+.venv
+
+# build
+build
+dist
+*.egg-info
+
+# Other
+.pipyrc
