@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding='utf-8'
 
 setup(
     name='celery-hchecker',
-    version='0.0.1',
+    version='0.0.2',
     packages=find_packages(where="src"),
     include_package_data=True,
     long_description_content_type="text/markdown",
